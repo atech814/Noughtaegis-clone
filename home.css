@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #071b35;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #071b35;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #0c2a4d;
+}
+.container {
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  /* margin-right: 10px; */
+}
+
+.nav-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-links img{
+  align-items: center;
+  margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+.nav-links a:hover {
+  color: #FD3842;
+}
+.btn-contact {
+  background-color: #FD3842;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.hero-btn img{
+  width: 28px;
+  height: 18px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('background.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-content .highlight {
+  display: inline-block;
+  position: relative;
+}
+.hero-content .highlight::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background: #ff4f5a;
+  bottom: -10px;
+  left: 0;
+  border-radius: 5px;
+}
+.hero-content p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.btn-touch {
+  margin-top: 30px;
+  display: inline-block;
+  background-color: #002b5c;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+.btn-touch:hover {
+  background-color: #003f7f;
+}
+
+.hero{
+    background-blend-mode:darken;
+    background: url(/woman-working-late-night-modern-office-her-face-focused-illuminated-by-laptop-screen-surrounded-by-city-lights-outside-window_95891-53767-DrDL7W0r.jpg)
+    
+}
+
+.hero{
+    text-align: center;
+    width: 1264px;
+    height: 400px;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.hero-content p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.hero-btn button{
+  margin-top: 30px;
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+.hero-btn button:hover{
+    background-color: #FD3842;
+}
+.reviews-section {
+  background-color: #071b35;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.reviews-title p {
+  color: #999;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.reviews-title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #ff4f5a;
+  border-radius: 20px;
+  padding: 30px 20px;
+  width: 300px;
+  position: relative;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.testimonial-footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+/* Services Section */
+.services-section {
+  background-color: #071b35;
+  padding: 60px 20px;
+  color: white;
+}
+
+.services-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.services-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  min-width: 250px;
+}
+
+.services-content li {
+  font-weight: bold;
+  padding: 12px 0;
+  border-bottom: 2px solid #fff;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.services-content li.active {
+  color: #ff4f5a;
+  border-color: #ff4f5a;
+}
+
+.cybersecurity-section {
+  background-color: #031a2f;
+  color: white;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.cybersecurity-section h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.cyber-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.left-column, .right-column {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.left-column h2, .right-column h2 {
+  color: #ff3c3c;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.left-column p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.right-column ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.right-column li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.right-column-btn button{
+    background-color: #fd3842;
+    color: #fff;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+.certification-cont{
+  background-color: #FD3842;
+  width: 100%;
+  height: 300px;
+  margin-top: 45px;
+  padding-top: 35px;
+}
+.certification-header{
+  display: flex;
+  justify-content: center;
+}
+.certification-header h2{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.serve{
+    background-color: #fff;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap: 100px;
+    overflow-x: hidden;
+}
+.serve-left h3{
+  color: #fd3842;
+    font: 500;
+    font-size: 2.5rem;
+    line-height: 30px;
+}
+
+.serve-left-link {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 35px;
+    margin-top: 6rem;
+}
+
+.serve-left-link a{
+      color: #001a38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+    border: 1px solid rgb(0, 26, 56);
+}
+.serve-left button{
+  color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fd3842;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+    margin-top: 2rem;
+}
+.serve-right img{
+  width: 400px;
+    height: 490px;
+    padding-bottom: 80px;
+}
+
+
