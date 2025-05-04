@@ -307,6 +307,21 @@ body {
   font-weight: bold;
   color: white;
 }
+.certification-slider{
+  display: flex;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+}
+
+.certification-slider img{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
 .serve{
     background-color: #fff;
     height: 600px;
@@ -349,6 +364,7 @@ body {
     transition: .3s;
     border: 1px solid rgb(0, 26, 56);
 }
+
 .serve-left button{
   color: #fff;
     display: flex;
@@ -366,10 +382,102 @@ body {
     transition: .3s;
     margin-top: 2rem;
 }
+
 .serve-right img{
   width: 400px;
     height: 490px;
     padding-bottom: 80px;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  overflow-x: hidden;
+}
 
+.footer-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 10px 30px;
+}
+
+.footer-left img{
+  width: 150px;
+  height: 150px;
+}
+
+.footer-left p{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  line-height: normal;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.footer-link h2{
+  font-size: 15px;
+  color: white;
+}
+
+.footer-box{
+  display: flex;
+  align-items: start;
+  gap: 70px;
+}
+
+.footer-service{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: start;
+}
+
+.footer-service a{
+  color: #fff;
+    font-size: 12px;
+    position: relative;
+    padding-left: 20px;
+}
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.newsletter h3{
+  color: #fff;
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.newsletter input{
+   width: 300px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 14px;
+  color: #fff;
+}
+
+.newsletter button{
+   width: 150px;
+   height: 40px;
+   background-color: #fd3842;
+   border-radius: 8px;
+   padding: 10px;
+   color: white;
+   }
